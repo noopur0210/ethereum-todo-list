@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "truffle": "^5.0.2"
+  },
+  "name": "ethereum-todo-list",
+  "description": "A Blockchain-based To-do app powered by Ethereum Smart Contracts",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^4.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noopur0210/ethereum-todo-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noopur0210/ethereum-todo-list/issues"
+  },
+  "homepage": "https://github.com/noopur0210/ethereum-todo-list#readme"
+}
