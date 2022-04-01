@@ -1,28 +1,25 @@
 {
-  "dependencies": {
-    "truffle": "^5.0.2"
-  },
-  "name": "ethereum-todo-list",
-  "description": "A Blockchain-based To-do app powered by Ethereum Smart Contracts",
+  "name": "eth-todo-list",
   "version": "1.0.0",
+  "description": "Blockchain Todo List Powered By Ethereum",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
   },
-  "devDependencies": {
-    "mocha": "^4.1.0"
-  },
   "scripts": {
-    "test": "mocha"
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && sexit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/noopur0210/ethereum-todo-list.git"
-  },
-  "author": "",
+  "author": "noopurs0210",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/noopur0210/ethereum-todo-list/issues"
-  },
-  "homepage": "https://github.com/noopur0210/ethereum-todo-list#readme"
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "lite-server": "^2.3.0",
+    "nodemon": "^1.17.3",
+    "truffle": "^5.0.2",
+    "truffle-contract": "^3.0.6"
+  }
 }
